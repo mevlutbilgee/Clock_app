@@ -32,26 +32,6 @@ body {
   font-weight: bold;
   color: orange;
 }
-.hour {
-  /* border: 1px solid grey; */
-  width: 200px;
-  text-align: center;
-}
-.minute {
-  /* border: 1px solid grey; */
-  width: 200px;
-  text-align: center;
-}
-
-.second {
-  /* border: 1px solid grey; */
-  width: 200px;
-  text-align: center;
-}
-.dot {
-  /* border: 1px solid orange; */
-  width: 50px;
-}
 
 @media screen and (max-width: 1000px) {
   .container {

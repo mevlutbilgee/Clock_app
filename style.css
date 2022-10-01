@@ -1,0 +1,70 @@
+body {
+  background-color: black;
+}
+.container {
+  /* border: 1px solid red; */
+  width: 700px;
+  margin: auto;
+  margin-top: 15rem;
+}
+.calender {
+  /* border: 1px solid blue; */
+  height: auto;
+  font-size: 3rem;
+  text-align: center;
+  color: rgb(241, 38, 72);
+  padding: 1rem;
+}
+.weekday {
+  /* border: 1px solid blue; */
+  height: auto;
+  font-size: 3rem;
+  text-align: center;
+  color: rgb(38, 150, 241);
+  padding: 1rem;
+}
+.clock {
+  /* border: 1px solid purple; */
+  height: auto;
+  display: flex;
+  font-size: 6rem;
+  justify-content: center;
+  font-weight: bold;
+  color: orange;
+}
+.hour {
+  /* border: 1px solid grey; */
+  width: 200px;
+  text-align: center;
+}
+.minute {
+  /* border: 1px solid grey; */
+  width: 200px;
+  text-align: center;
+}
+
+.second {
+  /* border: 1px solid grey; */
+  width: 200px;
+  text-align: center;
+}
+.dot {
+  /* border: 1px solid orange; */
+  width: 50px;
+}
+
+@media screen and (max-width: 1000px) {
+  .container {
+    width: 300px;
+    margin-top: 15rem;
+  }
+  .calender {
+    font-size: 2rem;
+  }
+  .weekday {
+    font-size: 2rem;
+  }
+  .clock {
+    font-size: 3rem;
+  }
+}
